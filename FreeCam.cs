@@ -56,8 +56,8 @@ public static unsafe class FreeCam
 
     private static readonly Dictionary<FreeCamBindings, uint> keybindings = new()
     {
-        [FreeCamBindings.Forward] = 321, // Move Forward
-        [FreeCamBindings.Backward] = 322, // Move Back
+        [FreeCamBindings.Forward] = 322, // Move Forward
+        [FreeCamBindings.Backward] = 321, // Move Back
         [FreeCamBindings.Left] = 323,  // Move
         [FreeCamBindings.Left2] = 325, // Strafe Left
         [FreeCamBindings.Right] = 324, // Move
